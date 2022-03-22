@@ -31,7 +31,8 @@ svn co https://github.com/immortalwrt/packages/trunk/net/minieap packages/net/mi
 
 # Replace smartdns with the official version
 rm -rf packages/net/smartdns
-svn co https://github.com/openwrt/packages/trunk/net/smartdns packages/net/smartdns
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/smartdns
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-netdata ../../customfeeds/luci/applications/luci-app-netdata
 popd
 
 # Set to local feeds
