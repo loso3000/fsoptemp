@@ -108,9 +108,9 @@ rm -rf ../../customfeeds/packages/net/v2ray*
 rm -rf ../../customfeeds/packages/net/xray*
 rm -rf ../../customfeeds/packages/net/trojan*
 
-git clone https://github.com/kenzok8/small
+#git clone https://github.com/kenzok8/small
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passs
-git clone https://github.com/xiaorouji/openwrt-passwall2.git 
+#git clone https://github.com/xiaorouji/openwrt-passwall2.git 
 #  git clone https://github.com/loso3000/openwrt-passwall package/passwall
 # svn co https://github.com/loso3000/openwrt-passwall/trunk/luci-app-passwall
 git clone --depth=1 https://github.com/fw876/helloworld.git
